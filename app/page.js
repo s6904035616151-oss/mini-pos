@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { supabase } from '../../lib/supabaseClient';
+import { supabase } from '../lib/supabaseClient';
 
 const LOW_STOCK_THRESHOLD = 5; // เกณฑ์แจ้งเตือนสต๊อกใกล้หมด
 
